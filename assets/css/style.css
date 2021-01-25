@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/13/17/58/dandelion-843584_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.main-nav{
+  background-image: linear-gradient(to right, red , yellow);
+
+}
+
+.disclaimer{
+font-size: 1rem;
+margin: 0 auto;
+}
+
+.border{
+  border: 5px solid black;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.row-all{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.container{
+  margin-top: 50px;
+}
